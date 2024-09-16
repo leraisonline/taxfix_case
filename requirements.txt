@@ -1,0 +1,7 @@
+requests
+pandas
+urllib3
+matplotlib
+seaborn
+reportlab
+pytest

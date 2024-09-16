@@ -1,0 +1,18 @@
+# Enable pycodestyle (`E`) and Pyflakes (`F`) codes by default, Enable flake8-bugbear (`B`) rules.
+lint.select = ["E", "F", "B"]
+# Never enforce `E501` (line length violations).
+lint.ignore = ["E501", "B905"]
+
+# Allow autofix for all enabled rules (when `--fix`) is provided.
+lint.fixable = ["A", "C", "D", "E", "F", "G", "I", "N", "Q", "S", "T", "W", "ANN", "ARG", "BLE", "COM", "DJ", "DTZ", "EM", "ERA", "EXE", "FBT", "ICN", "INP", "ISC", "NPY", "PD", "PGH", "PIE", "PL", "PT", "PTH", "PYI", "RET", "RSE", "RUF", "SIM", "SLF", "TCH", "TID", "TRY", "UP", "YTT"]
+
+# Avoid trying to fix flake8-bugbear (`B`) violations.
+lint.unfixable = ["B"]
+
+# Assume Python 3.12
+target-version = "py312"
+
+
+# Ignore `E402` and F401 (import violations) in all `__init__.py` files, and in `path/to/file.py`.
+[lint.per-file-ignores]
+"__init__.py" = ["E402", "F401"]

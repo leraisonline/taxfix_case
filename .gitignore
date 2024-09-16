@@ -1,0 +1,32 @@
+# Base idea staff
+.idea/
+.idea
+.vscode
+.ipynb_checkpoints
+__pycache__/
+.DS_Store
+.pytest_cache
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+
+# Sphinx documentation
+docs/_build/
+
+# env
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
